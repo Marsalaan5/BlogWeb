@@ -1,6 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import Select from "./Select";
 import Carousel from "react-bootstrap/Carousel";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Contact from "./Contact";

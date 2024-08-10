@@ -96,7 +96,7 @@ export class Service{
         }
     }
 
-    // file upload service
+
 
     async uploadFile(file){
         try {
@@ -110,6 +110,8 @@ export class Service{
             return false
         }
     }
+
+    
 
     async deleteFile(fileId){
         try {

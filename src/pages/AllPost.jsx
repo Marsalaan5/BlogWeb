@@ -10,8 +10,9 @@ function AllPost() {
             setPosts(posts.documents)
         }
     })
+
   return (
-    <div className='w-[50px] py-8'>
+    <div className='w-full py-16'>
         <Container>
             <div className='flex flex-wrap'>
                 {posts.map((post) => (
@@ -20,9 +21,9 @@ function AllPost() {
                     </div>
                 ))}
             </div>
-            </Container>
+        </Container>
     </div>
-  )
+)
 }
 
 export default AllPost

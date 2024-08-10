@@ -64,7 +64,7 @@ function Header() {
               <div className="flex items-center space-x-2">
                 <img src={pic} className="h-12 w-12 rounded-full" alt="Logo" />
                 <h1 className="font-bold text-xl cursor-pointer flex items-center">
-                  ThoughtsHeaven
+                  ThoughtsOfHeaven
                   <span className="text-green-500 text-2xl ml-1">l</span>
                   <p className="text-sm text-gray-600">Blog</p>
                 </h1>

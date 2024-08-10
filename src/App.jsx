@@ -31,13 +31,13 @@ function App() {
   return !loading ? (
   <>
       <Header />
+      <Outlet />
       <Home/>
       <main className="flex-grow">
         <Caro />
         <CardLayout />
       </main>
       <Footer />
-      <Outlet />
       <Toaster />
     </>
   ) : (

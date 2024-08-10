@@ -17,7 +17,7 @@ export class AuthService {
     async createAccount({ email, password, name }) {
         try {
             await this.account.create(ID.unique(), email, password, name);
-            // Call login after account creation
+          
             return this.login({ email, password });
         } catch (error) {
             console.error("Error creating account:", error);
